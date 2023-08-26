@@ -4,11 +4,12 @@
   "description": "",
   "main": "dist/index.js",
   "scripts": {
+    "start": "node src/index.js",
     "build": "webpack --mode production",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "publishConfig": {
-    "registry":"https://npm.pkg.github.com/"
+    "registry": "https://npm.pkg.github.com/"
   },
   "author": "",
   "license": "ISC",
@@ -19,5 +20,8 @@
     "babel-loader": "^9.1.3",
     "webpack": "^5.88.2",
     "webpack-cli": "^5.1.4"
+  },
+  "dependencies": {
+    "@baxarev/ajs8platforms": "^1.0.0"
   }
 }
